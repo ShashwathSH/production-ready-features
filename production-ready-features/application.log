@@ -1,0 +1,35 @@
+2026-01-04T20:30:37.455+05:30  INFO 27112 --- [production-ready-features] [main] .ProductionReadyFeaturesApplicationTests : Starting ProductionReadyFeaturesApplicationTests using Java 25.0.1 with PID 27112 (started by shash in E:\production-ready-features\production-ready-features)
+2026-01-04T20:30:37.457+05:30  INFO 27112 --- [production-ready-features] [main] .ProductionReadyFeaturesApplicationTests : No active profile set, falling back to 1 default profile: "default"
+2026-01-04T20:30:38.436+05:30  INFO 27112 --- [production-ready-features] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-01-04T20:30:38.504+05:30  INFO 27112 --- [production-ready-features] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 55 ms. Found 1 JPA repository interface.
+2026-01-04T20:30:39.356+05:30  INFO 27112 --- [production-ready-features] [main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-01-04T20:30:39.475+05:30  INFO 27112 --- [production-ready-features] [main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.0.Final
+2026-01-04T20:30:39.987+05:30  INFO 27112 --- [production-ready-features] [main] o.h.e.boot.internal.EnversServiceImpl    : Envers integration enabled? : true
+2026-01-04T20:30:40.239+05:30  INFO 27112 --- [production-ready-features] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-01-04T20:30:40.278+05:30  INFO 27112 --- [production-ready-features] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-01-04T20:30:40.750+05:30  INFO 27112 --- [production-ready-features] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@758ebec4
+2026-01-04T20:30:40.752+05:30  INFO 27112 --- [production-ready-features] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-01-04T20:30:40.810+05:30  WARN 27112 --- [production-ready-features] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-01-04T20:30:40.828+05:30  INFO 27112 --- [production-ready-features] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/production-ready-features]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.44
+	Default catalog/schema: production-ready-features/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-01-04T20:30:41.100+05:30  INFO 27112 --- [production-ready-features] [main] o.h.e.c.i.m.AuditMetadataGenerator       : Adding properties for entity: com.shashwathsh.production_ready_features.entities.PostEntity
+2026-01-04T20:30:41.916+05:30  INFO 27112 --- [production-ready-features] [main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-01-04T20:30:41.986+05:30  INFO 27112 --- [production-ready-features] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-01-04T20:30:42.217+05:30  INFO 27112 --- [production-ready-features] [main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-01-04T20:30:42.418+05:30  WARN 27112 --- [production-ready-features] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-01-04T20:30:42.868+05:30  INFO 27112 --- [production-ready-features] [main] .ProductionReadyFeaturesApplicationTests : Started ProductionReadyFeaturesApplicationTests in 5.99 seconds (process running for 8.413)
+2026-01-04T20:30:43.006+05:30  INFO 27112 --- [production-ready-features] [main] c.s.p.clients.impl.EmployeeClientImpl    : Trying to retrieve all employees in getAllEmployees
+2026-01-04T20:30:43.170+05:30 DEBUG 27112 --- [production-ready-features] [main] c.s.p.clients.impl.EmployeeClientImpl    : Successfully retrieved the employees in getAllEmployees
+2026-01-04T20:30:43.194+05:30  INFO 27112 --- [production-ready-features] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-01-04T20:30:43.197+05:30  INFO 27112 --- [production-ready-features] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-01-04T20:30:43.208+05:30  INFO 27112 --- [production-ready-features] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

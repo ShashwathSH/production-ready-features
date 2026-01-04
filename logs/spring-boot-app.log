@@ -1,0 +1,285 @@
+2026-01-04 20:41:55.861 [restartedMain] INFO  c.s.p.ProductionReadyFeaturesApplication - Starting ProductionReadyFeaturesApplication using Java 25.0.1 with PID 26064 (E:\production-ready-features\production-ready-features\target\classes started by shash in E:\production-ready-features)
+2026-01-04 20:41:55.864 [restartedMain] INFO  c.s.p.ProductionReadyFeaturesApplication - No active profile set, falling back to 1 default profile: "default"
+2026-01-04 20:41:55.934 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-01-04 20:41:55.934 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-01-04 20:41:57.660 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-01-04 20:41:57.746 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 67 ms. Found 1 JPA repository interface.
+2026-01-04 20:41:58.657 [restartedMain] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 9000 (http)
+2026-01-04 20:41:58.677 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9000"]
+2026-01-04 20:41:58.680 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-01-04 20:41:58.681 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-01-04 20:41:58.735 [restartedMain] INFO  o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 2800 ms
+2026-01-04 20:41:59.041 [restartedMain] INFO  org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-01-04 20:41:59.099 [restartedMain] INFO  org.hibernate.orm.core - HHH000001: Hibernate ORM core version 7.2.0.Final
+2026-01-04 20:41:59.351 [restartedMain] INFO  o.h.e.b.internal.EnversServiceImpl - Envers integration enabled? : true
+2026-01-04 20:41:59.518 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-01-04 20:41:59.542 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-01-04 20:41:59.823 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@25f47b2c
+2026-01-04 20:41:59.825 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-01-04 20:41:59.871 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-01-04 20:41:59.890 [restartedMain] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/production-ready-features]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.44
+	Default catalog/schema: production-ready-features/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-01-04 20:42:00.067 [restartedMain] INFO  o.h.e.c.i.m.AuditMetadataGenerator - Adding properties for entity: com.shashwathsh.production_ready_features.entities.PostEntity
+2026-01-04 20:42:00.694 [restartedMain] INFO  org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-01-04 20:42:00.759 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-01-04 20:42:00.939 [restartedMain] INFO  o.s.d.j.r.q.QueryEnhancerFactories - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-01-04 20:42:01.085 [restartedMain] WARN  o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-01-04 20:42:01.536 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2026-01-04 20:42:01.583 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9000"]
+2026-01-04 20:42:01.592 [restartedMain] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 9000 (http) with context path '/'
+2026-01-04 20:42:01.600 [restartedMain] INFO  c.s.p.ProductionReadyFeaturesApplication - Started ProductionReadyFeaturesApplication in 6.584 seconds (process running for 7.725)
+2026-01-04 20:42:09.458 [http-nio-9000-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-01-04 20:42:09.458 [http-nio-9000-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-01-04 20:42:09.459 [http-nio-9000-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2026-01-04 20:44:05.095 [SpringApplicationShutdownHook] INFO  o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-01-04 20:44:05.110 [tomcat-shutdown] INFO  o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-01-04 20:44:05.115 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-01-04 20:44:05.118 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-01-04 20:44:05.127 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-01-04 20:44:07.381 [restartedMain] INFO  c.s.p.ProductionReadyFeaturesApplication - Starting ProductionReadyFeaturesApplication using Java 25.0.1 with PID 15096 (E:\production-ready-features\production-ready-features\target\classes started by shash in E:\production-ready-features)
+2026-01-04 20:44:07.384 [restartedMain] INFO  c.s.p.ProductionReadyFeaturesApplication - No active profile set, falling back to 1 default profile: "default"
+2026-01-04 20:44:07.446 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-01-04 20:44:07.447 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-01-04 20:44:08.493 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-01-04 20:44:08.552 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 51 ms. Found 1 JPA repository interface.
+2026-01-04 20:44:09.443 [restartedMain] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 9000 (http)
+2026-01-04 20:44:09.456 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9000"]
+2026-01-04 20:44:09.459 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-01-04 20:44:09.459 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-01-04 20:44:09.522 [restartedMain] INFO  o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 2075 ms
+2026-01-04 20:44:09.910 [restartedMain] INFO  org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-01-04 20:44:09.975 [restartedMain] INFO  org.hibernate.orm.core - HHH000001: Hibernate ORM core version 7.2.0.Final
+2026-01-04 20:44:10.426 [restartedMain] INFO  o.h.e.b.internal.EnversServiceImpl - Envers integration enabled? : true
+2026-01-04 20:44:10.623 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-01-04 20:44:10.654 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-01-04 20:44:11.047 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@293389e9
+2026-01-04 20:44:11.051 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-01-04 20:44:11.137 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-01-04 20:44:11.173 [restartedMain] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/production-ready-features]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.44
+	Default catalog/schema: production-ready-features/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-01-04 20:44:11.517 [restartedMain] INFO  o.h.e.c.i.m.AuditMetadataGenerator - Adding properties for entity: com.shashwathsh.production_ready_features.entities.PostEntity
+2026-01-04 20:44:12.393 [restartedMain] INFO  org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-01-04 20:44:12.467 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-01-04 20:44:12.723 [restartedMain] INFO  o.s.d.j.r.q.QueryEnhancerFactories - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-01-04 20:44:12.922 [restartedMain] WARN  o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-01-04 20:44:13.599 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 13 endpoints beneath base path '/actuator'
+2026-01-04 20:44:13.687 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9000"]
+2026-01-04 20:44:13.698 [restartedMain] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 9000 (http) with context path '/'
+2026-01-04 20:44:13.708 [restartedMain] INFO  c.s.p.ProductionReadyFeaturesApplication - Started ProductionReadyFeaturesApplication in 6.987 seconds (process running for 7.589)
+2026-01-04 20:44:23.530 [http-nio-9000-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-01-04 20:44:23.530 [http-nio-9000-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-01-04 20:44:23.531 [http-nio-9000-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2026-01-04 20:47:48.891 [SpringApplicationShutdownHook] INFO  o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-01-04 20:47:48.912 [tomcat-shutdown] INFO  o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-01-04 20:47:48.920 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-01-04 20:47:48.923 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-01-04 20:47:48.934 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-01-04 20:47:51.480 [restartedMain] INFO  c.s.p.ProductionReadyFeaturesApplication - Starting ProductionReadyFeaturesApplication using Java 25.0.1 with PID 22952 (E:\production-ready-features\production-ready-features\target\classes started by shash in E:\production-ready-features)
+2026-01-04 20:47:51.483 [restartedMain] INFO  c.s.p.ProductionReadyFeaturesApplication - No active profile set, falling back to 1 default profile: "default"
+2026-01-04 20:47:51.544 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-01-04 20:47:51.544 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-01-04 20:47:52.819 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-01-04 20:47:52.877 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 50 ms. Found 1 JPA repository interface.
+2026-01-04 20:47:53.892 [restartedMain] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 9000 (http)
+2026-01-04 20:47:53.910 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9000"]
+2026-01-04 20:47:53.912 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-01-04 20:47:53.913 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-01-04 20:47:53.988 [restartedMain] INFO  o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 2443 ms
+2026-01-04 20:47:54.443 [restartedMain] INFO  org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-01-04 20:47:54.527 [restartedMain] INFO  org.hibernate.orm.core - HHH000001: Hibernate ORM core version 7.2.0.Final
+2026-01-04 20:47:54.867 [restartedMain] INFO  o.h.e.b.internal.EnversServiceImpl - Envers integration enabled? : true
+2026-01-04 20:47:55.126 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-01-04 20:47:55.161 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-01-04 20:47:55.492 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1c77b89
+2026-01-04 20:47:55.494 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-01-04 20:47:55.555 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-01-04 20:47:55.574 [restartedMain] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/production-ready-features]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.44
+	Default catalog/schema: production-ready-features/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-01-04 20:47:55.909 [restartedMain] INFO  o.h.e.c.i.m.AuditMetadataGenerator - Adding properties for entity: com.shashwathsh.production_ready_features.entities.PostEntity
+2026-01-04 20:47:56.570 [restartedMain] INFO  org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-01-04 20:47:56.634 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-01-04 20:47:56.812 [restartedMain] INFO  o.s.d.j.r.q.QueryEnhancerFactories - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-01-04 20:47:56.963 [restartedMain] WARN  o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-01-04 20:47:57.571 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 13 endpoints beneath base path '/actuator'
+2026-01-04 20:47:57.631 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9000"]
+2026-01-04 20:47:57.642 [restartedMain] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 9000 (http) with context path '/'
+2026-01-04 20:47:57.651 [restartedMain] INFO  c.s.p.ProductionReadyFeaturesApplication - Started ProductionReadyFeaturesApplication in 6.871 seconds (process running for 7.569)
+2026-01-04 20:48:11.840 [http-nio-9000-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-01-04 20:48:11.840 [http-nio-9000-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-01-04 20:48:11.842 [http-nio-9000-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2026-01-04 20:50:25.216 [SpringApplicationShutdownHook] INFO  o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-01-04 20:50:25.242 [tomcat-shutdown] INFO  o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-01-04 20:50:25.254 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-01-04 20:50:25.261 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-01-04 20:50:25.272 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-01-04 20:50:28.199 [restartedMain] INFO  c.s.p.ProductionReadyFeaturesApplication - Starting ProductionReadyFeaturesApplication using Java 25.0.1 with PID 23824 (E:\production-ready-features\production-ready-features\target\classes started by shash in E:\production-ready-features)
+2026-01-04 20:50:28.202 [restartedMain] INFO  c.s.p.ProductionReadyFeaturesApplication - No active profile set, falling back to 1 default profile: "default"
+2026-01-04 20:50:28.288 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-01-04 20:50:28.289 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-01-04 20:50:29.589 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-01-04 20:50:29.664 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 66 ms. Found 1 JPA repository interface.
+2026-01-04 20:50:31.074 [restartedMain] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 9000 (http)
+2026-01-04 20:50:31.092 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9000"]
+2026-01-04 20:50:31.095 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-01-04 20:50:31.095 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-01-04 20:50:31.180 [restartedMain] INFO  o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 2890 ms
+2026-01-04 20:50:31.860 [restartedMain] INFO  org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-01-04 20:50:31.926 [restartedMain] INFO  org.hibernate.orm.core - HHH000001: Hibernate ORM core version 7.2.0.Final
+2026-01-04 20:50:32.221 [restartedMain] INFO  o.h.e.b.internal.EnversServiceImpl - Envers integration enabled? : true
+2026-01-04 20:50:32.436 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-01-04 20:50:32.474 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-01-04 20:50:32.819 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5896a33d
+2026-01-04 20:50:32.821 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-01-04 20:50:32.901 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-01-04 20:50:32.945 [restartedMain] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/production-ready-features]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.44
+	Default catalog/schema: production-ready-features/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-01-04 20:50:33.190 [restartedMain] INFO  o.h.e.c.i.m.AuditMetadataGenerator - Adding properties for entity: com.shashwathsh.production_ready_features.entities.PostEntity
+2026-01-04 20:50:34.042 [restartedMain] INFO  org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-01-04 20:50:34.115 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-01-04 20:50:34.305 [restartedMain] INFO  o.s.d.j.r.q.QueryEnhancerFactories - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-01-04 20:50:34.518 [restartedMain] WARN  o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-01-04 20:50:35.129 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 13 endpoints beneath base path '/actuator'
+2026-01-04 20:50:35.188 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9000"]
+2026-01-04 20:50:35.199 [restartedMain] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 9000 (http) with context path '/'
+2026-01-04 20:50:35.210 [restartedMain] INFO  c.s.p.ProductionReadyFeaturesApplication - Started ProductionReadyFeaturesApplication in 7.789 seconds (process running for 8.65)
+2026-01-04 20:50:36.146 [http-nio-9000-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-01-04 20:50:36.147 [http-nio-9000-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-01-04 20:50:36.149 [http-nio-9000-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2026-01-04 20:53:12.684 [SpringApplicationShutdownHook] INFO  o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-01-04 20:53:12.701 [tomcat-shutdown] INFO  o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-01-04 20:53:12.706 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-01-04 20:53:12.709 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-01-04 20:53:12.716 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-01-04 20:53:16.513 [restartedMain] INFO  c.s.p.ProductionReadyFeaturesApplication - Starting ProductionReadyFeaturesApplication using Java 25.0.1 with PID 25992 (E:\production-ready-features\production-ready-features\target\classes started by shash in E:\production-ready-features)
+2026-01-04 20:53:16.516 [restartedMain] INFO  c.s.p.ProductionReadyFeaturesApplication - No active profile set, falling back to 1 default profile: "default"
+2026-01-04 20:53:16.606 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-01-04 20:53:16.607 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-01-04 20:53:18.661 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-01-04 20:53:18.756 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 79 ms. Found 1 JPA repository interface.
+2026-01-04 20:53:19.998 [restartedMain] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 9000 (http)
+2026-01-04 20:53:20.022 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9000"]
+2026-01-04 20:53:20.026 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-01-04 20:53:20.026 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-01-04 20:53:20.128 [restartedMain] INFO  o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 3521 ms
+2026-01-04 20:53:20.705 [restartedMain] INFO  org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-01-04 20:53:20.781 [restartedMain] INFO  org.hibernate.orm.core - HHH000001: Hibernate ORM core version 7.2.0.Final
+2026-01-04 20:53:21.154 [restartedMain] INFO  o.h.e.b.internal.EnversServiceImpl - Envers integration enabled? : true
+2026-01-04 20:53:21.456 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-01-04 20:53:21.494 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-01-04 20:53:22.060 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@153e3f09
+2026-01-04 20:53:22.063 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-01-04 20:53:22.135 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-01-04 20:53:22.187 [restartedMain] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/production-ready-features]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.44
+	Default catalog/schema: production-ready-features/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-01-04 20:53:22.531 [restartedMain] INFO  o.h.e.c.i.m.AuditMetadataGenerator - Adding properties for entity: com.shashwathsh.production_ready_features.entities.PostEntity
+2026-01-04 20:53:23.490 [restartedMain] INFO  org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-01-04 20:53:23.570 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-01-04 20:53:23.842 [restartedMain] INFO  o.s.d.j.r.q.QueryEnhancerFactories - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-01-04 20:53:24.103 [restartedMain] WARN  o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-01-04 20:53:24.916 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 13 endpoints beneath base path '/actuator'
+2026-01-04 20:53:25.039 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9000"]
+2026-01-04 20:53:25.063 [restartedMain] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 9000 (http) with context path '/'
+2026-01-04 20:53:25.080 [restartedMain] INFO  c.s.p.ProductionReadyFeaturesApplication - Started ProductionReadyFeaturesApplication in 9.408 seconds (process running for 10.209)
+2026-01-04 20:54:26.302 [SpringApplicationShutdownHook] INFO  o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-01-04 20:54:26.320 [tomcat-shutdown] INFO  o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-01-04 20:54:26.326 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-01-04 20:54:26.330 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-01-04 20:54:26.341 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-01-04 20:54:29.247 [restartedMain] INFO  c.s.p.ProductionReadyFeaturesApplication - Starting ProductionReadyFeaturesApplication using Java 25.0.1 with PID 24676 (E:\production-ready-features\production-ready-features\target\classes started by shash in E:\production-ready-features)
+2026-01-04 20:54:29.252 [restartedMain] INFO  c.s.p.ProductionReadyFeaturesApplication - No active profile set, falling back to 1 default profile: "default"
+2026-01-04 20:54:29.323 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-01-04 20:54:29.324 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-01-04 20:54:30.834 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-01-04 20:54:30.960 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 90 ms. Found 1 JPA repository interface.
+2026-01-04 20:54:31.993 [restartedMain] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 9000 (http)
+2026-01-04 20:54:32.008 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9000"]
+2026-01-04 20:54:32.011 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-01-04 20:54:32.011 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-01-04 20:54:32.162 [restartedMain] INFO  o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 2838 ms
+2026-01-04 20:54:32.592 [restartedMain] INFO  org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-01-04 20:54:32.654 [restartedMain] INFO  org.hibernate.orm.core - HHH000001: Hibernate ORM core version 7.2.0.Final
+2026-01-04 20:54:32.998 [restartedMain] INFO  o.h.e.b.internal.EnversServiceImpl - Envers integration enabled? : true
+2026-01-04 20:54:33.214 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-01-04 20:54:33.254 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-01-04 20:54:33.611 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@330eb792
+2026-01-04 20:54:33.614 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-01-04 20:54:33.680 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-01-04 20:54:33.701 [restartedMain] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/production-ready-features]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.44
+	Default catalog/schema: production-ready-features/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-01-04 20:54:33.994 [restartedMain] INFO  o.h.e.c.i.m.AuditMetadataGenerator - Adding properties for entity: com.shashwathsh.production_ready_features.entities.PostEntity
+2026-01-04 20:54:34.724 [restartedMain] INFO  org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-01-04 20:54:34.792 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-01-04 20:54:35.069 [restartedMain] INFO  o.s.d.j.r.q.QueryEnhancerFactories - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-01-04 20:54:35.303 [restartedMain] WARN  o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-01-04 20:54:36.080 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 13 endpoints beneath base path '/actuator'
+2026-01-04 20:54:36.153 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9000"]
+2026-01-04 20:54:36.165 [restartedMain] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 9000 (http) with context path '/'
+2026-01-04 20:54:36.173 [restartedMain] INFO  c.s.p.ProductionReadyFeaturesApplication - Started ProductionReadyFeaturesApplication in 7.701 seconds (process running for 8.415)
+2026-01-04 20:54:37.529 [http-nio-9000-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-01-04 20:54:37.529 [http-nio-9000-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-01-04 20:54:37.530 [http-nio-9000-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2026-01-04 20:59:30.222 [SpringApplicationShutdownHook] INFO  o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-01-04 20:59:30.238 [tomcat-shutdown] INFO  o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-01-04 20:59:30.243 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-01-04 20:59:30.246 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-01-04 20:59:30.252 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
